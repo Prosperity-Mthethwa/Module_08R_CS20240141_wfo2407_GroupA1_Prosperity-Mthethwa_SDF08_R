@@ -9,15 +9,15 @@
 </head>
 <body>
     <footer class="bg-[#659f8f]">
-        <div class="container">
+        <div class="container h-screen"> <!-- Added height to the screen -->
             <footer class="bg-[#659f8f]">
                 <div class="container  px-6 py-8 mx-auto">
                     <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4"> <!-- added new grid class-->
                         <div class="sm:col-span-2">
                             <h1 class="max-w-lg text-xl font-semibold tracking-tight text-[#313131] xl:text-2xl dark:text-white" >Subscribe to our newsletter for updates.</h1>
                             <div class="flex flex-col justify-start sm:flex-row gap-1">
-                                <input id="email" type="text" placeholder="Email Address" class="px-8 py-2 [#313131] bg-white border rounded-md dark:bg-[#313131] dark:text-white dark:border-[#313131] focus:border-[#d86943] dark:focus:border-[#d86943] focus:outline-none focus:ring focus:ring-opacity-40 focus:ring-[#d86943] mt-4"> <!-- added placeholder text -->
-                                <button class=" px-8 py-2 text-white bg-orange-600 rounded-md mt-4"> <!-- added margin to space it out-->
+                                <input id="email" type="text" placeholder="Email Address" class="px-8 py-2 [#313131] bg-white border rounded-md dark:bg-[#313131] dark:text-white dark:border-[#313131] focus:border-[#d86943] dark:focus:border-[#d86943] focus:outline-none focus:ring focus:ring-opacity-40 focus:ring-[#d86943] mt-4"> <!-- added placeholder text and margins -->
+                                <button class=" px-8 py-2 text-white bg-orange-600 rounded-md mt-4 hover:bg-orange-500"> <!-- added margin to space it out-->
                                     Subscribe
                                 </button>
                             </div>
@@ -26,7 +26,7 @@
                             <p class="text-[#313131] font-semibold">Quick Link</p>
                             <div class="flex py-4">
                                 <!-- added unordered list-->
-                               <ul class="text-[#313131] space-y-2"> 
+                               <ul class="text-[#313131] space-y-2 hover:underline "> 
                                     <li> <a href="#">Home</a></li>
                                     <li><a href="#">Who We Are</a></li>
                                     <li><a href="#">Our Philosophy</a></li>
@@ -35,8 +35,8 @@
                         </div>
                         <div>
                             <p class="text-[#313131] font-semibold">Technologies</p>
-                            <div class="">
-                                <ul class="text-[#313131] space-y-2">
+                            <div class=" flex py-4">
+                                <ul class="text-[#313131] space-y-2 hover:underline">
                                     <li><a href="#">HTML</a></li>
                                     <li><a href="#">CSS</a></li>
                                     <li><a href="#">JavaScript</a></li>
